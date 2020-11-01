@@ -1,0 +1,83 @@
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Exo+2:400,900italic,900,800italic,800,700italic,700,600italic,600,500italic,500,400italic,300italic,300,200italic,200,100italic,100' rel='stylesheet' type='text/css'>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/Future.css') }}">
+	<link href='../static/styles/Future.css' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+	<div class="futurepanel">
+		<h1 class="futurepanel__title">Virtual Duel Disk</h1>
+	</div>
+	<div class="futurepanel">
+
+			<div class="futurepanel__body">
+				<img src="/static/digitalcard.png" class="digitalcard" onclick="location.href='/mz1'">
+				<img src="/static/digitalcard.png" class="digitalcard" onclick="location.href='/mz2'">
+				<img src="/static/digitalcard.png" class="digitalcard" onclick="location.href='/mz3'">
+			</div>
+			<div class="futurepanel__body">
+				<img src="/static/digitalcard.png" class="digitalcard" onclick="location.href='/st1'">
+				<img src="/static/digitalcard.png" class="digitalcard" onclick="location.href='/st2'">
+				<img src="/static/digitalcard.png" class="digitalcard" onclick="location.href='/st3'">
+			</div>
+			<div class="futurepanel__body">
+				<table class="futureinput futureinput--text">
+					<tr>
+						<th ><label for="example1" style='margin-right:20px;'>Google</label></th>
+						<th ><button class="futurebutton" onclick="location.href='/move'">move</button></th>
+						<th ><div></div></th>
+						<th ><label for="example1" style='margin-right:20px;'>Google</label></th>
+						<th ><button class="futurebutton" onclick="location.href='/capture'">capture</button></th>
+					</tr>
+					<tr>
+						<th ><label for="example1" style='margin-right:20px;'>Google</label></th>
+						<th ><button class="futurebutton" onclick="window.open('https:/google.com','_blank')">Go</button></th>
+						<th ><div></div></th>
+						<th ><label for="example1" style='margin-right:20px;'>Google</label></th>
+						<th ><button class="futurebutton" onclick="window.open('https:/google.com','_blank')">Go</button></th>
+					</tr>
+					<tr>
+						<th ><label for="example1" style='margin-right:20px;'>Google</label></th>
+						<th ><button class="futurebutton" onclick="window.open('https:/google.com','_blank')">Go</button></th>
+						<th ><div></div></th>
+						<th ><label for="example1" style='margin-right:20px;'>Google</label></th>
+						<th ><button class="futurebutton" onclick="window.open('https:/google.com','_blank')">Go</button></th>
+					</tr>
+					<tr>
+						<th ><label for="example1" style='margin-right:20px;'>Google</label></th>
+						<th ><button class="futurebutton" onclick="window.open('https:/google.com','_blank')">Go</button></th>
+					</tr>
+				</table>
+			</div>
+	</div>
+			<div class="futurepanel__header"></div>
+			<table class="futureinput futureinput--text">
+					<tr>
+						<th ><button class="futurebutton" onclick="location.href='/draw_card'">Draw</button></th>
+						<th ><div></div></th>
+						<th ><button class="futurebutton" onclick="location.href='/attack'">Attack</button></th>
+						<th ><div></div></th>
+					</tr>
+			</table>
+
+			<div class="futurepanel__header"></div>
+			<table class="futureinput futureinput--text">
+					<tr>
+						<th ><button class="futurebutton" onclick="location.href='/next_phase'">Next Phase</button></th>
+						<th ><div></div></th>
+						<th ><button class="futurebutton" onclick="location.href='/battle_phase'">Battle Phase</button></th>
+						<th ><div></div></th>
+						<th ><button class="futurebutton" onclick="location.href='/end_phase'">End Phase</button></th>
+						<th ><div></div></th>
+						<th ><button class="futurebutton" onclick="location.href='/hand'">Hand</button></th>
+						<th ><div></div></th>
+						<th ><button class="futurebutton" onclick="location.href='/main'">Main</button></th>
+					</tr>
+			</table>
+			<div></div>
+			<div class="futurepanel__footer">
+				<div>Kaiba Corp. 2020///////////// </div>
+			</div>
+	</div>
+</body>

@@ -1,0 +1,58 @@
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Exo+2:400,900italic,900,800italic,800,700italic,700,600italic,600,500italic,500,400italic,300italic,300,200italic,200,100italic,100' rel='stylesheet' type='text/css'>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/Future.css') }}">
+	<link href='../static/styles/Future.css' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+	<div class="futurepanel">
+			<div class="futurepanel__header">
+				<h1 class="futurepanel__title">Virtual Duel Disk / Hand</h1>
+			</div>
+			<div class="futurepanel__body">
+				<img src="/static/digitalcard.png" class="digitalcard" onclick="location.href='/hand_5_1'">
+				<img src="/static/digitalcard.png" class="digitalcard" onclick="location.href='/hand_5_2'">
+				<img src="/static/digitalcard.png" class="digitalcard" onclick="location.href='/hand_5_3'">
+				<img src="/static/digitalcard.png" class="digitalcard" onclick="location.href='/hand_5_4'">
+				<img src="/static/digitalcard.png" class="digitalcard" onclick="location.href='/hand_5_5'">
+			</div>
+
+			<div class="futurepanel__header"></div>
+			<table class="futureinput futureinput--text">
+					<tr>
+						<th ><button class="futurebutton" onclick="location.href='/fusion_summon'">Fusion</button></th>
+						<th ><div></div></th>
+						<th ><button class="futurebutton" onclick="location.href='/special_summon'">Special Summon</button></th>
+						<th ><div></div></th>
+						<th ><div></div></th>
+						<th ><div></div></th>
+						<th ><button class="futurebutton" onclick="location.href='/summon'">Summon/Activate</button></th>
+						<th ><div></div></th>
+						<th ><button class="futurebutton" onclick="location.href='/set'">Set</button></th>
+					</tr>
+			</table>
+
+			<div class="separator"></div>
+
+			<div class="futurepanel__header"></div>
+			<table class="futureinput futureinput--text">
+					<tr>
+						<th ><button class="futurebutton" onclick="location.href='/next_phase'">Next Phase</button></th>
+						<th ><div></div></th>
+						<th ><button class="futurebutton" onclick="location.href='/battle_phase'">Battle Phase</button></th>
+						<th ><div></div></th>
+						<th ><button class="futurebutton" onclick="location.href='/end_phase'">End Phase</button></th>
+						<th ><div></div></th>
+						<th ><button class="futurebutton" onclick="location.href='/main'">Main</button></th>
+					</tr>
+			</table>
+
+
+			<div class="separator"></div>
+
+			<div class="futurepanel__footer">
+				<div>Virtual Duel Disk |||  Kaiba Corp. 2020///////////// </div>
+			</div>
+		</div>
+</body>
